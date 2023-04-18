@@ -37,7 +37,7 @@ void inserirNoFim(struct arrayList *lista, int valor)
     lista->quantidade++;
 }
 
-voint inserirEmPosicao(struct arrayList *lista, int valor, int posicao)
+void inserirEmPosicao(struct arrayList *lista, int valor, int posicao)
 {
     if (lista->quantidade == lista->capacidade)
     {
